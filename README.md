@@ -11,3 +11,4 @@ When jar is produced. Submit both the applications by changing only the --class 
 $ spark-submit --class "com.knoldus.RDDProducer"  --master master_url path_to_jar
 $ spark-submit --class "com.knoldus.RDDConsumer"  --master master_url path_to_jar
 ```
+Checkout the detailed set up instructions at this blog: https://blog.knoldus.com/2016/07/26/sharing-rdds-states-across-spark-applications-with-apache-ignite/
